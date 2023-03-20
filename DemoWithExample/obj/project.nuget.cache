@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3TQOmcNQn7tKxKwcZT5GmsRD3FG0ERkffWTwFvlYMbmb2fyjbzRC5z1h9SUaeF9zAxQYLhR3eEndCqKAlP3XHA==",
+  "dgSpecHash": "jpkw+iFgIjbRWss6efeTXnHY/sBohi1fDfijpjgYC4NF1k1VSmD59NSqqTCQGR640ATuvfoTOTYf9MzYhCwCdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",

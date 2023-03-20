@@ -14,9 +14,9 @@ Scenario Outline: Valid Registration
 	And I select my Gender
 	And I select my Hobbies
 	And I select my languages
-	#And I select my Skills
-	#And I select my Country
-	#And I select my Date of Birth
+	And I select my Skills
+	And I select my Country
+	And I select my Date of Birth
 	And I enter my Password "<password>"
 	And I enter my Confirm Password "<confirmpassword>"
 	When I click on the Submit Button

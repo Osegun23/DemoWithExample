@@ -1,5 +1,7 @@
 ﻿using DemoWithExample.Utilities;
+using Microsoft.VisualBasic;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,11 @@ namespace DemoWithExample.PageObjects
         IWebElement Password => driver.FindElement(By.Id("firstpassword"));
         IWebElement ConfirmPassword => driver.FindElement(By.Id("secondpassword"));
         IWebElement SubmitButton => driver.FindElement(By.Id("submitbtn"));
+        IWebElement Skills => driver.FindElement(By.Id("Skills"));
+        IWebElement Country => driver.FindElement(By.Id("country"));
+        IWebElement Year => driver.FindElement(By.Id("yearbox"));
+        IWebElement Month => driver.FindElement(By.CssSelector("select[placeholder='Month']"));
+        IWebElement Day => driver.FindElement(By.Id("daybox"));
 
         public void NavigateToURL(string url)
         {
@@ -74,6 +81,28 @@ namespace DemoWithExample.PageObjects
         {
             Languages.Click();
             Languages1.Click();
+        }
+
+        public void MySkills()
+        {
+            SelectElement select = new SelectElement(Skills);
+            select.SelectByText("Client Server");
+
+        }
+
+        public void MyCountry()
+        {
+            SelectElement select = new SelectElement(Country);
+            select.SelectByValue("Netherlands");
+        }
+        public void MyDateOfBirth()
+        {
+            SelectElement select = new SelectElement(Year);
+            SelectElement oselect = new SelectElement(Month);
+            SelectElement iselect = new SelectElement(Day);
+            select.SelectByText("1990");
+            oselect.SelectByValue("February");
+            iselect.SelectByIndex(5);
         }
 
         public void EnterPassword(string password)

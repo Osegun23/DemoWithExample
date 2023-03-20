@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj": {}
+    "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj": {
+    "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
         "projectName": "DemoWithExample",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\DemoWithExample.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\DemoWithExample\\DemoWithExample\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\DemoWithExample\\DemoWithExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

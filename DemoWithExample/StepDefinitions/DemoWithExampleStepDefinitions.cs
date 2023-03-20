@@ -70,6 +70,24 @@ namespace DemoWithExample.StepDefinitions
             demoWithExamplePage.MyLanguage();
         }
 
+        [Given(@"I select my Skills")]
+        public void GivenISelectMySkills()
+        {
+            demoWithExamplePage.MySkills();
+        }
+
+        [Given(@"I select my Country")]
+        public void GivenISelectMyCountry()
+        {
+            demoWithExamplePage.MyCountry();
+        }
+
+        [Given(@"I select my Date of Birth")]
+        public void GivenISelectMyDateOfBirth()
+        {
+            demoWithExamplePage.MyDateOfBirth();
+        }
+
         [Given(@"I enter my Password ""([^""]*)""")]
         public void GivenIEnterMyPassword(string password)
         {
